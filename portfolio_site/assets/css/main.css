@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 .profile-pic{
 	width: 250px;
 	height: auto;
@@ -2202,7 +2203,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			/* background-image: url("images/overlay.png"); */
 			content: '';
 			display: block;
 			height: 100%;
@@ -2268,9 +2269,9 @@ input, select, textarea {
 				transform: translateZ(1em);
 			}
 
-			.image.icon:hover:after {
+			/* .image.icon:hover:after {
 				opacity: 1;
-			}
+			} */
 
 	span.image.icon {
 		cursor: default;
@@ -3307,4 +3308,14 @@ input, select, textarea {
 					display: none;
 				}
 
+	}
+
+	#strive {
+		height:100%;
+		width: 100%;
+	}
+
+	#pig {
+		height: 100%;
+		width: 100%;
 	}
