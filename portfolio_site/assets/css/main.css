@@ -22,14 +22,15 @@
 
 #resume-btn{
 	
-	background:#534d55;
+	background:#3a2e3c;
 	font-family: 'Montserrat', sans-serif;
-	width: 200px;
-	height: 40px;
+	width: 400px;
+	height: 80px;
 	color: white;
 	font-size:20px;
 	cursor: pointer;
 	border-radius: 5px;
+	font-size: 30px;
 }
 
 html, body, div, span, applet, object,
@@ -3318,4 +3319,34 @@ input, select, textarea {
 	#pig {
 		height: 100%;
 		width: 100%;
+	}
+
+	.links {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.link-item {
+		height: 100px;
+		width: 100px;
+		background-size: cover;
+	}
+
+	#linkedin {
+		background-image: url("https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png");
+
+	}
+
+	#github {
+		background-image: url("https://image.flaticon.com/icons/png/512/25/25231.png");
+	}
+
+	#angelList {
+		background-image: url("https://icons-for-free.com/free-icons/png/512/1181192.png");
+	}
+
+	a {
+		text-decoration: none;
 	}
